@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monthly Payment</title>
+    <link rel="stylesheet" href="monthly-interest.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Loan Calculator</h2>
+        
+        <p>Loan Amount $</p>
+        
+        <input type="Number" max="500000" min="1" value="1000" class="loan_amt" oninput="paymentAmt()">
+        
+        <p>Interest Rate %</p>
+        
+        <input type="Number" max="100" min="1"  step=".1" class="interest_rate" value="12" oninput="paymentAmt()">
+        
+        <p>Months to Pay</p>
+        
+        <input type="Number" max="48" min="6" value="6" class="months_to_pay" oninput="paymentAmt()">
+        
+        <p class="payment">Monthly Payment: $</p>
+        
+        
+    </div>
+    
+    <script src="monthly-interest.js"></script>
+</body>
+</html>
