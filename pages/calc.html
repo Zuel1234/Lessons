@@ -1,0 +1,39 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div id="container">
+        <h1>CALCULATOR</h1>
+        <input id="display" readonly>
+        <div id="keys">
+            <button class="operators" type="button" onclick="numberKeys('+')">+</button>
+                 
+                                                <button type="button" onclick="numberKeys('7')">7</button>
+                                                            <button type="button" onclick="numberKeys('8')">8</button>
+                                                                        <button type="button" onclick="numberKeys('9')">9</button>
+                                                                                    <button class="operators" type="button" onclick="numberKeys('-')">-</button>
+                                                                                                <button type="button" onclick="numberKeys('4')">4</button>
+                                                                                                            <button type="button" onclick="numberKeys('5')">5</button>
+                                                                                                                        <button type="button" onclick="numberKeys('6')">6</button>
+                                                                                                                                    <button class="operators" type="button" onclick="numberKeys('*')">*</button>
+                                                                                                                                                <button type="button" onclick="numberKeys('1')">1</button>
+                                                                                                                                                            <button type="button" onclick="numberKeys('2')">2</button>
+                                                                                                                                                                        <button type="button" onclick="numberKeys('3')">3</button>
+                                                                                                                                                                                    <button class="operators" type="button" onclick="numberKeys('/')">/</button>
+                                                                                                                                                                                                <button type="button" onclick="numberKeys('0')">0</button>
+                                                                                                                                                                                                            <button type="button" onclick="numberKeys('.')">.</button>
+                                                                                                                                                                                                                        <button type="button" id ="equals" onclick="calcInput()">=</button>
+                                                                                                                                                                                                                                    <button type="button" class ="clear" onclick="clearInput()">C</button>
+                                                                                                                                                                                                                                             
+            
+        </div>
+    </div>
+    <script src="callback.js"></script>
+</body>
+</html>
